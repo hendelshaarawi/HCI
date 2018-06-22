@@ -8,7 +8,7 @@
 header {
 	margin: 3% auto;
 }
-header h1 a {
+header h1.title a {
 	text-decoration: none;
 	color: black;
 	font-weight: 400;
@@ -40,12 +40,19 @@ figure video {
 	margin: 15% auto;
 }
 
+figure video.extra {
+	width: 80%;
+	margin: 3% auto;
+}
+
 section.photo figure img {
 	width: 80%;
 	margin: 7% auto;
 }
 
-
+section.photo figure img.extraa {
+margin: 5% auto 0% auto
+}
 
 section.white h3.colortext {
 	color: #D0AAF3;
@@ -152,6 +159,7 @@ span.char {
 }
 figcaption {
 	font-size: .8em;
+	margin-top: -3%;
 }
 /*-----NAVIGATIE-----*/
 
@@ -439,6 +447,39 @@ footer {
     letter-spacing: 0.05em;
 }
 */
+
+
+
+header h1.title a {
+	text-decoration: none;
+	color: black;
+	font-weight: 400;
+	text-align: center;
+}
+header h1 {
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
